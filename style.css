@@ -33,6 +33,9 @@ body,
 .background {
     overflow-x: hidden;
   }
+  .background {
+    width: 100%;
+  }
   img.bg {
     /* Set rules to fill background */
     min-height: 2000px;

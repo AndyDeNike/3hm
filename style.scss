@@ -77,7 +77,9 @@ img.bg {
     .background { 
         overflow-x: hidden; 
     }
-    // .background { overflow-x: hidden; }
+    .background { 
+        width: 100%; 
+    }
     img.bg {
         // overflow-x: hidden;
         /* Set rules to fill background */
