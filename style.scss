@@ -41,12 +41,6 @@ html {
     padding: env(safe-area-inset);
 }
 
-html, 
-body {
-    margin: 0 auto;
-    overflow-x: hidden;
-}
-
 img.bg {
     /* Set rules to fill background */
     min-height: 100%;
@@ -93,23 +87,19 @@ img.bg {
     }
     .background-container {
         overflow-x: hidden;
-        width: 2044px;
-        height: auto;
     }
     img.bg {
         padding: env(safe-area-inset);
-        overflow-x: hidden;
+        // overflow-x: hidden;
         /* Set rules to fill background */
-        // min-height: 2000px;
-        // min-width: 2043px;
+        min-height: 2000px;
+        min-width: 2043px;
         // // min-width: 100%;
         // min-width: 1024px;
-        min-width: 150%;
-        min-height: 150%;
             
         /* Set up proportionate scaling */
-        // width: 100%;
-        // height: auto;
+        width: 100%;
+        height: auto;
             
         /* Set up positioning */
         position: absolute;
