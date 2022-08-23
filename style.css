@@ -55,8 +55,8 @@ img.bg {
     padding: env(safe-area-inset);
     overflow-x: hidden;
     /* Set rules to fill background */
-    min-height: 2000px;
-    min-width: 2043px;
+    min-width: 150%;
+    min-height: 150%;
     /* Set up proportionate scaling */
     /* Set up positioning */
     position: absolute;
