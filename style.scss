@@ -71,12 +71,13 @@ img.bg {
     width: 560px;
 }
 
-@media (max-width: 810px) {
+@media only screen and (max-width: 800px) {
     img.bg {
+        overflow-x: hidden;
         /* Set rules to fill background */
-        min-height: 100px;
+        min-height: 2000px;
         // // min-width: 100%;
-        // min-width: 1024px;
+        min-width: 1024px;
             
         /* Set up proportionate scaling */
         width: 100%;
@@ -100,6 +101,6 @@ img.bg {
         right:0;
         bottom:0;
         margin: auto;
-        width: 100%;
+        width: 90%;
     }
 }
