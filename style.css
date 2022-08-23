@@ -27,11 +27,10 @@ img.bg {
   width: 560px;
 }
 
-@media (max-width: 630px) {
+@media (min-width: 810px) {
   img.bg {
     /* Set rules to fill background */
-    min-height: 1024px;
-    min-width: 1024px;
+    min-height: 2000px;
     /* Set up proportionate scaling */
     width: 100%;
     height: auto;
@@ -53,7 +52,7 @@ img.bg {
     right: 0;
     bottom: 0;
     margin: auto;
-    width: 100%;
+    width: 90%;
   }
 }
 
