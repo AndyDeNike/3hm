@@ -87,6 +87,8 @@ img.bg {
     }
     .background-container {
         overflow-x: hidden;
+        width: 100%;
+        height: auto;
     }
     img.bg {
         padding: env(safe-area-inset);
@@ -98,8 +100,8 @@ img.bg {
         // min-width: 1024px;
             
         /* Set up proportionate scaling */
-        width: 100%;
-        height: auto;
+        // width: 100%;
+        // height: auto;
             
         /* Set up positioning */
         position: absolute;
