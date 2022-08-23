@@ -40,8 +40,12 @@ img.bg {
     height: 100%;
     margin: 0;
   }
+  .background-container {
+    overflow-x: hidden;
+  }
   img.bg {
     padding: env(safe-area-inset);
+    overflow-x: hidden;
     /* Set rules to fill background */
     min-height: 2000px;
     min-width: 2043px;
