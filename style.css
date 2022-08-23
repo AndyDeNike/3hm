@@ -46,8 +46,6 @@ img.bg {
     min-height: 2000px;
     min-width: 2043px;
     /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
     /* Set up positioning */
     position: absolute;
     top: 0;
@@ -77,8 +75,7 @@ img.bg {
     right: 0;
     bottom: 0;
     margin: auto;
-    width: auto;
-    height: 50%;
+    width: 50%;
   }
 }
 
