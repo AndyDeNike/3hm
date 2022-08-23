@@ -27,7 +27,7 @@ img.bg {
   width: 560px;
 }
 
-@media (min-width: 810px) {
+@media (max-width: 810px) {
   img.bg {
     /* Set rules to fill background */
     min-height: 2000px;
