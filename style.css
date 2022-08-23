@@ -28,14 +28,6 @@ img.bg {
 }
 
 @media only screen and (max-width: 800px) {
-  html,
-body,
-.background {
-    overflow-x: hidden;
-  }
-  .background {
-    width: 100%;
-  }
   img.bg {
     /* Set rules to fill background */
     min-height: 2000px;
