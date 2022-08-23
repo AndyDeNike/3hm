@@ -1,3 +1,7 @@
+html {
+  padding: env(safe-area-inset);
+}
+
 img.bg {
   /* Set rules to fill background */
   min-height: 100%;
@@ -28,12 +32,16 @@ img.bg {
 }
 
 @media only screen and (max-width: 800px) {
+  html {
+    padding: env(safe-area-inset);
+  }
   body {
     overflow-x: hidden;
     height: 100%;
     margin: 0;
   }
   img.bg {
+    padding: env(safe-area-inset);
     /* Set rules to fill background */
     min-height: 2000px;
     min-width: 2043px;
@@ -59,6 +67,17 @@ img.bg {
     bottom: 0;
     margin: auto;
     width: 90%;
+  }
+}
+@media screen and (orientation: landscape) {
+  .logo {
+    position: fixed; /* or absolute */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
   }
 }
 
