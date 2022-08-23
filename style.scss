@@ -76,6 +76,11 @@ img.bg {
 }
 
 @media only screen and (max-width: 800px) {
+    html,
+    body {
+        width: 100%;
+        position: relative;
+    }
     html { 
         padding: env(safe-area-inset);
     }
@@ -87,10 +92,10 @@ img.bg {
     }
     .background-container {
         overflow-x: hidden;
-        width: 2044px;
+        width: 1px;
         height: auto;
     }
-    img.bg {
+    .bg {
         padding: env(safe-area-inset);
         overflow-x: hidden;
         /* Set rules to fill background */
@@ -125,7 +130,7 @@ img.bg {
     }
 }
 
-@media screen and (orientation:landscape) {
+@media only screen and (max-width: 800px) and (orientation:landscape) {
     .logo {
         position: fixed; /* or absolute */
         top:0;
