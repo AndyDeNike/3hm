@@ -72,14 +72,11 @@ img.bg {
 }
 
 @media only screen and (max-width: 800px) {
-    // .background { 
-    //     overflow-x: hidden; 
-    // }
-    // .background { overflow-x: hidden; }
     img.bg {
         // overflow-x: hidden;
         /* Set rules to fill background */
         min-height: 2000px;
+        min-width: 2043px;
         // // min-width: 100%;
         // min-width: 1024px;
             
