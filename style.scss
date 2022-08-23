@@ -40,8 +40,7 @@
 html { 
     padding: env(safe-area-inset);
 }
-
-img.bg {
+.portrait {
     /* Set rules to fill background */
     min-height: 100%;
     // min-width: 100%;
@@ -62,6 +61,16 @@ img.bg {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+
+.background-container {
+    overflow-x: hidden;
+    width: 1px;
+    height: auto;
+}
+
+// img.bg {
+    
+// }
 
 .logo {
     // // @extend %colflx;
@@ -89,11 +98,6 @@ img.bg {
         overflow-x: hidden; 
         height: 100%;
         margin: 0; 
-    }
-    .background-container {
-        overflow-x: hidden;
-        width: 1px;
-        height: auto;
     }
     .bg {
         padding: env(safe-area-inset);
