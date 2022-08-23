@@ -71,5 +71,35 @@ img.bg {
     width: 560px;
 }
 
-
-// @import "mobile";
+@media (max-width: 630px) {
+    img.bg {
+        /* Set rules to fill background */
+        min-height: 100%;
+        // min-width: 100%;
+        min-width: 1024px;
+            
+        /* Set up proportionate scaling */
+        width: 100%;
+        height: auto;
+            
+        /* Set up positioning */
+        position: absolute;
+        top: 0;
+        left: 0;
+        user-drag: none;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    .logo {
+        position: fixed; /* or absolute */
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        margin:auto;
+        width: 100%;
+    }
+}
