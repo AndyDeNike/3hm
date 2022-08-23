@@ -44,8 +44,9 @@ img.bg {
     padding: env(safe-area-inset);
     /* Set rules to fill background */
     min-height: 2000px;
-    min-width: 2043px;
     /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
     /* Set up positioning */
     position: absolute;
     top: 0;
