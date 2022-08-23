@@ -21,12 +21,6 @@ html {
   -ms-user-select: none;
 }
 
-.background-container {
-  overflow-x: hidden;
-  width: 1px;
-  height: auto;
-}
-
 .logo {
   position: fixed; /* or absolute */
   top: 0;
@@ -51,23 +45,10 @@ body {
     height: 100%;
     margin: 0;
   }
-  .bg {
-    padding: env(safe-area-inset);
+  .background-container {
     overflow-x: hidden;
-    /* Set rules to fill background */
-    min-height: 2000px;
-    min-width: 2043px;
-    /* Set up proportionate scaling */
-    /* Set up positioning */
-    position: absolute;
-    top: 0;
-    left: 0;
-    user-drag: none;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+    width: 1px;
+    height: auto;
   }
   .logo {
     position: fixed; /* or absolute */
