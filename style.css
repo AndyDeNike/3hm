@@ -2,6 +2,11 @@ html {
   padding: env(safe-area-inset);
 }
 
+html, body {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
 img.bg {
   /* Set rules to fill background */
   min-height: 100%;
