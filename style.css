@@ -2,7 +2,36 @@ html {
   padding: env(safe-area-inset);
 }
 
-@media screen and (orientation: portrait) {
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: absolute;
+  top: 0;
+  left: 0;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.logo {
+  position: fixed; /* or absolute */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 560px;
+}
+
+@media only screen and (max-width: 800px) {
   html {
     padding: env(safe-area-inset);
   }
@@ -41,87 +70,6 @@ html {
     bottom: 0;
     margin: auto;
     width: 90%;
-  }
-}
-@media only screen and (orientation: landscape) {
-  html {
-    padding: env(safe-area-inset);
-  }
-  body {
-    overflow-x: hidden;
-    height: 100%;
-    margin: 0;
-  }
-  .background-container {
-    overflow-x: hidden;
-  }
-  img.bg {
-    padding: env(safe-area-inset);
-    /* Set rules to fill background */
-    min-height: 2000px;
-    min-width: 2043px;
-    /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
-    /* Set up positioning */
-    position: absolute;
-    top: 0;
-    left: 0;
-    user-drag: none;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-  }
-  .logo {
-    position: fixed; /* or absolute */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 35%;
-  }
-}
-@media only screen and (min-width: 810px) and (orientation: landscape) {
-  html {
-    padding: env(safe-area-inset);
-  }
-  body {
-    overflow-x: hidden;
-    height: 100%;
-    margin: 0;
-  }
-  .background-container {
-    overflow-x: hidden;
-  }
-  img.bg {
-    /* Set rules to fill background */
-    min-height: 100%;
-    min-width: 1024px;
-    /* Set up proportionate scaling */
-    width: 100%;
-    height: auto;
-    /* Set up positioning */
-    position: absolute;
-    top: 0;
-    left: 0;
-    user-drag: none;
-    -webkit-user-drag: none;
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-  }
-  .logo {
-    position: fixed; /* or absolute */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 560px;
   }
 }
 
