@@ -31,7 +31,7 @@ img.bg {
   width: 560px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (orientation: portrait) and (max-width: 600px) {
   html {
     padding: env(safe-area-inset);
   }
@@ -39,9 +39,6 @@ img.bg {
     overflow-x: hidden;
     height: 100%;
     margin: 0;
-  }
-  .background-container {
-    overflow-x: hidden;
   }
   img.bg {
     padding: env(safe-area-inset);
@@ -70,6 +67,17 @@ img.bg {
     bottom: 0;
     margin: auto;
     width: 90%;
+  }
+}
+@media only screen and (orientation: landscape) and (max-width: 900px) {
+  .logo {
+    position: fixed; /* or absolute */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 60%;
   }
 }
 
