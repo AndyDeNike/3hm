@@ -31,7 +31,7 @@ img.bg {
   width: 560px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) and (orientation: portrait) {
   html {
     padding: env(safe-area-inset);
   }
@@ -73,6 +73,36 @@ img.bg {
   }
 }
 @media screen and (max-width: 800px) and (orientation: landscape) {
+  html {
+    padding: env(safe-area-inset);
+  }
+  body {
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+  }
+  .background-container {
+    overflow-x: hidden;
+  }
+  img.bg {
+    padding: env(safe-area-inset);
+    /* Set rules to fill background */
+    min-height: 2000px;
+    min-width: 2043px;
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    /* Set up positioning */
+    position: absolute;
+    top: 0;
+    left: 0;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
   .logo {
     position: fixed; /* or absolute */
     top: 0;
