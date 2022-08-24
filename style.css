@@ -30,7 +30,18 @@ img.bg {
   margin: auto;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 928px) {
+  .logo {
+    position: fixed; /* or absolute */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 428px) {
   html {
     padding: env(safe-area-inset);
   }
@@ -66,17 +77,6 @@ img.bg {
     bottom: 0;
     margin: auto;
     width: 90%;
-  }
-}
-@media screen and (orientation: landscape) {
-  .logo {
-    position: fixed; /* or absolute */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 35%;
   }
 }
 /*# sourceMappingURL=style.css.map */
