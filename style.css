@@ -85,6 +85,17 @@ html {
   }
 }
 @media only screen and (min-width: 810px) and (orientation: landscape) {
+  html {
+    padding: env(safe-area-inset);
+  }
+  body {
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+  }
+  .background-container {
+    overflow-x: hidden;
+  }
   img.bg {
     /* Set rules to fill background */
     min-height: 100%;
