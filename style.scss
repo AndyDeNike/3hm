@@ -1,8 +1,12 @@
 html {
     padding: env(safe-area-inset);
 }
+html, body {
+    overflow-x: hidden;
+}
 
 img.bg {
+    overflow-x: hidden;
     /* Set rules to fill background */
     min-height: 100%;
     min-width: 1024px;
@@ -41,6 +45,7 @@ img.bg {
         margin: 0;
     }
     img.bg {
+        overflow-x: hidden;
         padding: env(safe-area-inset);
         /* Set rules to fill background */
         min-height: 2000px;
@@ -78,7 +83,7 @@ img.bg {
         right: 0;
         bottom: 0;
         margin: auto;
-        width: 30%;
+        width: 35%;
     }
 }
   
