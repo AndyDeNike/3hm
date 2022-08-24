@@ -28,20 +28,10 @@ img.bg {
   right: 0;
   bottom: 0;
   margin: auto;
+  width: 560px;
 }
 
-@media only screen and (max-width: 928px) {
-  .logo {
-    position: fixed; /* or absolute */
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 35%;
-  }
-}
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 800px) {
   html {
     padding: env(safe-area-inset);
   }
@@ -77,6 +67,17 @@ img.bg {
     bottom: 0;
     margin: auto;
     width: 90%;
+  }
+}
+@media only screen and (max-height: 414px) and (orientation: landscape) {
+  .logo {
+    position: fixed; /* or absolute */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30%;
   }
 }
 /*# sourceMappingURL=style.css.map */
