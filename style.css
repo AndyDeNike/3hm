@@ -33,7 +33,7 @@ img.bg {
   right: 0;
   bottom: 0;
   margin: auto;
-  width: 560px;
+  width: 45%;
 }
 
 @media only screen and (max-width: 650px) {
